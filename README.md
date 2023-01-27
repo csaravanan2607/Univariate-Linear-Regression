@@ -37,20 +37,12 @@ b = ymean - m*xmean
 print(m,b)
 ypred = m*x+b
 print(ypred)
-
 plt.scatter(x,y,color='Red')
 plt.plot(x,ypred,color='Blue')
 plt.show()
-
-
-
-
-
 ```
 ## Output
-
 ![image](https://user-images.githubusercontent.com/121395849/215150512-d428170d-9583-4ccf-82a4-1af1f5a628d5.png)
-
 
 ## Result
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares.
